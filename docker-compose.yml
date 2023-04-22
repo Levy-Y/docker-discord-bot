@@ -1,0 +1,8 @@
+services:
+  bot:
+    build: .
+    container_name: my-discord-bot
+    volumes:
+      - ./bot.py:/app/bot.py
+    environment:
+      - TOKEN=YOURTOKEN

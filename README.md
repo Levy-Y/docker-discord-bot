@@ -1,6 +1,6 @@
 # docker-discord-bot
 
-This repository contains a simple Discord bot built with Python and Docker. It includes a Dockerfile, a bot.py file, a requirements.txt file, and a docker-compose.yml file.
+This repository contains the required files to build a Docker container, which is running a python discord bot.
 
 ## Getting Started
 

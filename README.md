@@ -31,7 +31,14 @@ docker build ./
 ```bash
 docker-compose up -d
 ```
-*(this will start the container in detached mode)*
+*(Note: this will start the container in detached mode)*
+
+## Option B:
+You can also just run the docker-compose_NO-BUILD.yml file, like:
+```bash
+docker-compose -f docker-compose_NO-BUILD.yml up -d
+```
+*(Note: you'll need the bot.py otherwise the command will exit)*
 
 ## Usage
 The bot will now be running and ready to respond to commands. You can add the bot to your Discord server by creating a new application and adding a bot to it. Follow the steps outlined in the [Discord Developer Portal](https://discord.com/developers/applications) to create a new application and add a bot to it.

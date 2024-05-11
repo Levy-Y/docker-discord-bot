@@ -11,18 +11,26 @@ To get started with this bot, you will need to have Docker installed on your sys
 Follow these steps to run the bot:
 
 1. Clone the repository using the following command: <br>
-**git clone https://github.com/Levy-Y/docker-discord-bot**
+```bash
+git clone https://github.com/Levy-Y/docker-discord-bot
+```
 
 2. Navigate to the directory using the following command: <br>
-**cd docker-discord-bot**
+```bash
+cd docker-discord-bot
+```
 
 3. Open the **docker-compose.yml** file and replace *YOURTOKEN* with your Discord bot token.
 
 4. Run the following command to build the Docker image: <br>
-**docker build ./**
+```bash
+docker build ./
+```
 
-5. To start the container enter the following command: <br>
-**docker-compose up -d** <br>
+6. To start the container enter the following command: <br>
+```bash
+docker-compose up -d
+```
 *(this will start the container in detached mode)*
 
 ## Usage

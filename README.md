@@ -34,7 +34,7 @@ docker-compose up -d
 *(Note: this will start the container in detached mode)*
 
 ## Option B:
-You can also just run the docker-compose_NO-BUILD.yml file, like:
+You can also just run the docker-compose_NO-BUILD.yml file after cloning this repository, like:
 ```bash
 docker-compose -f docker-compose_NO-BUILD.yml up -d
 ```
